@@ -7,7 +7,7 @@ In deze verkenning bundelen we de use cases en ervaringen die zijn opgedaan met 
 
 Daarnaast stellen we een set voorbeeldbestanden beschikbaar van deze verschillende formaten, en voeren we een 'vergelijkend warenonderzoek' uit op verschillende aspecten (o.m. CRS, cirkelbogen, compressie, lossy/losless-conversie) op deze verschillende encodings.
 
-Wil je meer weten of mee doen in deze verkenning neem dan contact op met Linda van der Brink (l.vdbrink@geonovum.nl) of Arnoud de Boer (a.deboer@geonovum.nl).
+Wil je meer weten of mee doen in deze verkenning neem dan contact op met Linda van den Brink (l.vandenbrink@geonovum.nl) of Arnoud de Boer (a.deboer@geonovum.nl).
 
 
 # Geometry in lighter formats
@@ -19,4 +19,4 @@ In this survey we bundle the use cases and experiences that have been gained wit
 
 In addition, we provide a set of sample files of these different formats, and we perform a 'comparative commodity study' on various aspects (including CRS, circular arcs, compression, lossy / losless conversion) on these different encodings.
 
-If you want to know more or participate in this survey, please contact Linda van der Brink (l.vanderbrink@geonovum.nl) or Arnoud de Boer (a.deboer@geonovum.nl).
+If you want to know more or participate in this survey, please contact Linda van den Brink (l.vandenbrink@geonovum.nl) or Arnoud de Boer (a.deboer@geonovum.nl).
