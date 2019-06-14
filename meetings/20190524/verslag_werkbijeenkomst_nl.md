@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+Werkbijeenkomst Geometrie in Lichtere Formaten
+==============================================
+=======
 # Werkbijeenkomst Geometrie in Lichtere Formaten
 
+>>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
 
 24 mei 2019, 10:00-12:00uur - Geonovum (Amersfoort)
 
@@ -14,7 +19,13 @@
 | Erik van der Knaap \| gemeente Gooise Meren |                                        |
 | Thijs Brentjens \| Geonovum                 |                                        |
 
+<<<<<<< HEAD
+Doel
+----
+
+=======
 ## Doel
+>>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
 Linda heet iedereen welkom en start met het doel van deze bijeenkomst: samen
 kijken naar nieuwe geostandaarden zijnde lichtere alternatieve formaten voor
 GML. GML is/was de standaard, maar er zijn nu ook alternatieve geo-standaarden.
@@ -24,7 +35,13 @@ is om dit goed te kunnen toepassen. Resultaat van deze verkenning kunnnen zijn
 best-practices, handreikingen, NL-profielen of bepaalde geo-standaarden richting
 PTOLU (PasToeOfLegUit –lijst van standaarden van Forum Standaardisatie).
 
+<<<<<<< HEAD
+Terugblik vorige bijeenkomst
+----------------------------
+
+=======
 ## Terugblik vorige bijeenkomst
+>>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
 Op 17 juli 2018 is ook een bijeenkomst geweest waarbij gekeken is naar andere
 alternatieve formaten voor GML. De conclusies uit deze bijeenkomst waren:
 
@@ -55,7 +72,13 @@ Sinds vorige bijeenkomst is het volgende gebeurd:
 
 -   Aantal topics geopend op [GeoForum](https://geoforum.nl/).
 
+<<<<<<< HEAD
+Scope/discussie
+---------------
+
+=======
 ## Scope/discussie
+>>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
 Scope/discussie voor deze werkbijeenkomst is de positionering van GML t.o.v.
 andere formaten. John start de discussie met de opmerking dat er verschillende
 manieren van data ophalen zijn,
@@ -130,12 +153,6 @@ Zuid-Holland redeneert: in API-strategie staat GeoJSON, dus ook ‘gewone’
 ontwikkelaars aan de GeoJSON helpen. Ontwikkelaars pakken helaas nu ook andere
 formaten.
 
-KOOP publiceert wetten. Voorheen alleen teksten, maar nu teksten met data +
-geometrie. GML is bestendig voor 50 jaar, wat een belangrijke eis is voor
-KOOP. Gedachte is om GML-bestand de juridisch bindende data te laten bevatten,
-maar de mogelijkheid te hebben voor een ‘makkelijk lezen’-knopje dat formaat
-GeoPackage of GeoJSON uitlevert.
-
 Focus is nu vooral op de situaties dat er altijd geometrie is. Maar hoe ga je om
 met data zonder geometrie. Hoe past dat binnen GeoPackage en GeoJSON?
 GeoPackage zit SQLLite onder, is dus niet een pure geo-techniek.
@@ -150,14 +167,15 @@ voor FileGeodatabase. Er is een extra stap nodig om GeoPackage te genereren
 uit FileGeodatabase.
 
 Wilko: KOOP publiceert wetten. Voorheen alleen teksten, maar nu teksten met data
-+ geometrie. GML is bestendig voor 50 jaar, belangrijke eis. GML
-bestand juridisch bindende data. Mogelijkheden voor ‘makkelijk lezen’-knopje in
-formaat GeoPackage / GeoJSON. 
++ geometrie. GML is bestendig voor 50 jaar, wat een belangrijke eis is voor
+KOOP. Gedachte is om GML-bestand de juridisch bindende data te laten bevatten,
+maar de mogelijkheid te hebben voor een ‘makkelijk lezen’-knopje dat formaat
+GeoPackage of GeoJSON uitlevert.
 
-PDF is authentieke bron, maar deze wordt omgezet naar andere (lichtere)
-formaten. Er kunnen nu afspraken gemaakt worden over lengte van attribuutnamen.
-Complexiteit van structuren. Aan de kant van bevoegd gezag wordt alles zo
-simpel/plat mogelijk gehouden richting SFS0. Onderzocht wordt om
+PDF is nu de authentieke bron voor wetteksten, maar deze wordt omgezet naar
+andere (lichtere) formaten. Er kunnen nu afspraken gemaakt worden over lengte
+van attribuutnamen. Complexiteit van structuren. Aan de kant van bevoegd gezag
+wordt alles zo simpel/plat mogelijk gehouden richting SFS0. Onderzocht wordt om
 simpele GeoJSON in te laden in een web browser met mogelijkheid om te linken
 naar juridisch bindende GML. Dus een frontend met simpelere versies wat vraagt
 om een extra database er naast. Simpelere geometrie fungeert dan als soort van
@@ -182,6 +200,9 @@ GeoJSON-LD. Linked Data kan worden toegepast voor metadatering over o.m.
 toelichting/toepassing, definiteis en originele bron. Afspraken zijn nodig over
 hoe je maken over hoe je linkt aan de authentieke / betrouwbare bron. 
 
+GML is nu zeer geschikt voor rigide valideren. De vraag is of/hoe dit voor
+andere formaten geldt.
+
 Uit de discussie komt samengevat de volgende wensen/behoeften:
 
 1.  Een handreiking om te weten voor welke toepassingsgebied je welke encoding
@@ -198,6 +219,18 @@ Uit de discussie komt samengevat de volgende wensen/behoeften:
 
 -   Visualisatie, extensies richting standaardisatie OGC) 
 
+<<<<<<< HEAD
+1.  Pilot/demonstrator hoe een lichter formaat als index/portaal naar andere
+    thema-bronnen ingezet kan worden? Voorbeelden zijn wetten/besluiten, of
+    index/portaal voor ontsluiting thema’s (wegen, gebouwen).
+
+2.  Een minimale set van voorbeeldbestanden als referentiedataset voor
+    GeoPackage, GeoJSON (en GML).
+
+Afspraken en vervolg
+--------------------
+
+=======
 3.  Pilot/demonstrator hoe een lichter formaat als index/portaal naar andere
         thema-bronnen ingezet kan worden? Voorbeelden zijn wetten/besluiten, of
         index/portaal voor ontsluiting thema’s (wegen, gebouwen).
@@ -206,7 +239,8 @@ Uit de discussie komt samengevat de volgende wensen/behoeften:
     GeoPackage, GeoJSON (en GML).
 
 ## Afspraken en vervolg
-De volgende afspraken worden gemaakt:
+>>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
+Dus samenvattend:
 
 -   Geonovum richt online werkomgeving in Github in voor verkenning naar
     Geometrie in lichtere formaten.
@@ -221,5 +255,5 @@ De volgende afspraken worden gemaakt:
 -   Geonovum werkt de toepassingsgebieden, use cases, praktijkvoorbeelden en
     -ervaringen uit in een best-practice document. Streven is voor de zomer een
     eerste opzet te hebben die deelnemers kunnen aanvullen.
-    
-Geonovum plant na de zomer een vervolgbijeenkomst in.
+
+Na de zomer organiseert Geonovum een vervolgbijeenkomst.
