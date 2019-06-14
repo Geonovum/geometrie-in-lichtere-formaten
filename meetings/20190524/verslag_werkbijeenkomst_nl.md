@@ -3,7 +3,7 @@
 
 24 mei 2019, 10:00-12:00uur - Geonovum (Amersfoort)
 
-| __Aanwezig:__                             | __Afgemeld:__                         |
+| Aanwezig:                                   | Afgemeld:                              |
 |---------------------------------------------|----------------------------------------|
 | John Schaap \| Kadaster                     | Paul van Genuchten \| geocat           |
 | Willy Tadema \| Provincie Groningen         | Just van den Broecke \| Just Objects   |
