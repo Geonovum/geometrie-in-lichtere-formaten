@@ -33,7 +33,7 @@ can be
 best practices, guidelines, Dutch profiles or certain geo-standards on the
 formal list of the Forum Standardization.
 
-\#\# Looking back at the previous meeting
+## Lookback at the previous meeting
 
 There was also a meeting on July 17, 2018 that looked at other alternative
 formats for GML. The conclusions from this meeting were:
