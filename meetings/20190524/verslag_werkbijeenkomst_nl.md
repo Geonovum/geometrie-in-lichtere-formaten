@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-Werkbijeenkomst Geometrie in Lichtere Formaten
-==============================================
-=======
 # Werkbijeenkomst Geometrie in Lichtere Formaten
-
->>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
 
 24 mei 2019, 10:00-12:00uur - Geonovum (Amersfoort)
 
@@ -19,13 +13,7 @@ Werkbijeenkomst Geometrie in Lichtere Formaten
 | Erik van der Knaap \| gemeente Gooise Meren |                                        |
 | Thijs Brentjens \| Geonovum                 |                                        |
 
-<<<<<<< HEAD
-Doel
-----
-
-=======
 ## Doel
->>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
 Linda heet iedereen welkom en start met het doel van deze bijeenkomst: samen
 kijken naar nieuwe geostandaarden zijnde lichtere alternatieve formaten voor
 GML. GML is/was de standaard, maar er zijn nu ook alternatieve geo-standaarden.
@@ -35,13 +23,7 @@ is om dit goed te kunnen toepassen. Resultaat van deze verkenning kunnnen zijn
 best-practices, handreikingen, NL-profielen of bepaalde geo-standaarden richting
 PTOLU (PasToeOfLegUit –lijst van standaarden van Forum Standaardisatie).
 
-<<<<<<< HEAD
-Terugblik vorige bijeenkomst
-----------------------------
-
-=======
 ## Terugblik vorige bijeenkomst
->>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
 Op 17 juli 2018 is ook een bijeenkomst geweest waarbij gekeken is naar andere
 alternatieve formaten voor GML. De conclusies uit deze bijeenkomst waren:
 
@@ -72,13 +54,9 @@ Sinds vorige bijeenkomst is het volgende gebeurd:
 
 -   Aantal topics geopend op [GeoForum](https://geoforum.nl/).
 
-<<<<<<< HEAD
-Scope/discussie
----------------
 
-=======
+
 ## Scope/discussie
->>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
 Scope/discussie voor deze werkbijeenkomst is de positionering van GML t.o.v.
 andere formaten. John start de discussie met de opmerking dat er verschillende
 manieren van data ophalen zijn,
@@ -219,7 +197,6 @@ Uit de discussie komt samengevat de volgende wensen/behoeften:
 
 -   Visualisatie, extensies richting standaardisatie OGC) 
 
-<<<<<<< HEAD
 1.  Pilot/demonstrator hoe een lichter formaat als index/portaal naar andere
     thema-bronnen ingezet kan worden? Voorbeelden zijn wetten/besluiten, of
     index/portaal voor ontsluiting thema’s (wegen, gebouwen).
@@ -227,10 +204,6 @@ Uit de discussie komt samengevat de volgende wensen/behoeften:
 2.  Een minimale set van voorbeeldbestanden als referentiedataset voor
     GeoPackage, GeoJSON (en GML).
 
-Afspraken en vervolg
---------------------
-
-=======
 3.  Pilot/demonstrator hoe een lichter formaat als index/portaal naar andere
         thema-bronnen ingezet kan worden? Voorbeelden zijn wetten/besluiten, of
         index/portaal voor ontsluiting thema’s (wegen, gebouwen).
@@ -239,7 +212,6 @@ Afspraken en vervolg
     GeoPackage, GeoJSON (en GML).
 
 ## Afspraken en vervolg
->>>>>>> de8e803d082aaba06b89c4369bff05a20c40d1b2
 Dus samenvattend:
 
 -   Geonovum richt online werkomgeving in Github in voor verkenning naar
