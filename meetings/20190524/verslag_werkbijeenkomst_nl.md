@@ -58,7 +58,7 @@ Sinds vorige bijeenkomst is het volgende gebeurd:
 
 ## Scope/discussie
 Scope/discussie voor deze werkbijeenkomst is de positionering van GML t.o.v.
-andere formaten. John start de discussie met de opmerking dat er verschillende
+andere formaten, met name GeoPackage en GeoJSON. John start de discussie met de opmerking dat er verschillende
 manieren van data ophalen zijn,
 
 1.  Vraag-antwoord: API’s: Ophalen van kleine aantallen of individuele objecten 
@@ -72,7 +72,7 @@ toegepast maar dit is bewezen niet het meest handige formaat hiervoor.
 
 Bij PDOK wordt nu veel uitgewisseld met GeoPackage, waarbij ook een schema mee
 wordt uitgewisseld. GeoPackage leent zich verder voor raster tiling,
-visualisatie, en metadata. Thijs merkt op dat ook voorbeeldvisualisatie
+visualisatie, en metadata. Thijs merkt op dat ook voorbeeldvisualisaties
 met GeoPackage kunnen worden meegeleverd.
 
 Bij PDOK wordt GeoPackage toegepast voor kortere ETL-processen. PDOK werkt er
@@ -88,7 +88,7 @@ Kracht van GeoPackage is dat er ook betekenisvolle attribuutnamen meegegeven
 kunnen worden in tegenstelling tot beperkte maximale lengte van attribuutnamen
 (10 karakters) in Shapefiles.
 
-Thijs meldt dat Paul het voorstel heeft gedaan voor metadata in GeoPackage met
+Thijs meldt dat Paul van Genuchten het voorstel heeft gedaan voor metadata in GeoPackage met
 als doel metadata-afspraken op standaard manier opnemen in GeoPackage.
 Internationaal standaardiseren van hele pakketje van GeoPackage is nodig.
 
@@ -98,7 +98,7 @@ Shapefiles is waarbij bestanden veelal via email worden uitgewisseld.
 Han merkt op dat Shapefile dichter zit bij databasemodellen, en niet bij de
 informatiemodellen. Dit vraagt wel aan PDOK-kant om mappings te hebben. 
 
-Nadeel van GeoPackage is dat het geen platte tekst, maar binair bestand is. Dit
+Nadeel van GeoPackage is dat het geen platte tekst, maar een binair bestand is. Dit
 is een risico in het kader van bestendigheid in toekomst.
 
 Willy noemt het voorbeeld van onduidelijkheid over de draairichtingen van
@@ -108,17 +108,18 @@ te leggen omdat ook niet geo-mensen dit gebruiken. 
 
 Veel techniek kan moeilijk overweg met meerdere geometrieën bij 1
 feature. Kwaliteit van de geometrie is een issue, waarbij complexe geometrieën
-in software vaak moet worden platgeslagen.
+in software vaak moeten worden platgeslagen.
 
 Verzoek is om voor GeoJSON een afspraak te maken dat coördinaten ook in RD mogen
 en op 3 decimale posities wordt afgerond. Eenzelfde afspraak zou ook voor
 afkappen coördinaten in WGS’84 moeten zijn om MB’s in uitwisseling te beperken.
-WGS’84 is de standaard/default in GeoJSON, maar een onderlinge / Nederlandse
-afspraak kan zijn dat ook andere CRS bijv. RD toegestaan is.
+WGS’84 is de standaard/default in GeoJSON, en is voor de meeste (web)toepassingen
+ook het meest geschikte CRS,  maar een onderlinge / Nederlandse
+afspraak kan zijn dat indien nodig ook andere CRS bijv. RD toegestaan is.
 
-In URL-strategie kan opgelost worden dat ook andere CRS in GeoJSON toegepast kan
+In API-strategie kan opgelost worden dat ook andere CRS in GeoJSON toegepast kan
 worden. De vraag is hoe om te gaan met transformatie en kwaliteit hiervan. John
-merkt op dat het belangrijks is om onderscheid te maken tussen visualisatie en
+merkt op dat het belangrijk is om onderscheid te maken tussen visualisatie en
 toepassingen waarbinnen wel nauwkeurigheid nodig is. Afhankelijk van
 schaalniveaus moet je een formaat kiezen.
 
@@ -132,7 +133,7 @@ ontwikkelaars aan de GeoJSON helpen. Ontwikkelaars pakken helaas nu ook andere
 formaten.
 
 Focus is nu vooral op de situaties dat er altijd geometrie is. Maar hoe ga je om
-met data zonder geometrie. Hoe past dat binnen GeoPackage en GeoJSON?
+met data zonder of maar voor een deel geometrie. Hoe past dat binnen GeoPackage en GeoJSON?
 GeoPackage zit SQLLite onder, is dus niet een pure geo-techniek.
 
 Erik vraagt of visualisatie als extensie op GeoPackage is gestandaardiseerd.
@@ -163,7 +164,7 @@ Gedachte bij PDOK is om meerdere endpoints toe te passen waar gebruikers
 verschillende data uit andere API’s ophalen. Idee wordt geopperd voor een QGIS
 plugin waarbij je vanuit kaartbeeld naar andere thema-bronnen kan linken. 
 
-Thijs gebruikt sinds jaar al veel GeoPackage voor extracten en archiveren van
+Thijs gebruikt sinds 1 jaar al veel GeoPackage voor extracten en archiveren van
 projecten/data, dus vooral lokaal. Als experiment heeft hij een GeoPackage
 uitgeleverd aan partij die weinig tot geen geo-kennis heeft met een paar hints
 voor tools. Dag later kreeg hij bericht dat het deze partij gelukt is om de
@@ -172,47 +173,40 @@ QGIS. Thijs roept op om (verschillende) uitkomsten van verschillende ETL’s te
 verzamelen.
 
 GeoJSON zit vooal aan de API-kant en is makkelijk te lezen voor
-niet-geogebruikers. Eenvoudiger handiger dan GML (makkelijkere taal).  Er moeten
+niet-geogebruikers. Eenvoudiger en handiger dan GML (makkelijkere taal).  Er moeten
 ook gekeken worden naar toepassingen van GeoJSON met Linked Data ofwel
 GeoJSON-LD. Linked Data kan worden toegepast voor metadatering over o.m.
-toelichting/toepassing, definiteis en originele bron. Afspraken zijn nodig over
-hoe je maken over hoe je linkt aan de authentieke / betrouwbare bron. 
+toelichting/toepassing, definities en originele bron. Afspraken zijn nodig over
+hoe je linkt aan de authentieke / betrouwbare bron. 
 
 GML is nu zeer geschikt voor rigide valideren. De vraag is of/hoe dit voor
-andere formaten geldt.
+andere formaten geldt. PDOK is voornemens dit te gaan uitzoeken voor GeoPackage.
 
 Uit de discussie komt samengevat de volgende wensen/behoeften:
 
-1.  Een handreiking om te weten voor welke toepassingsgebied je welke encoding
-    toepast. Met daarin onderscheid tussen expert-gebruik vs. Visualisatie en de
-    3 manieren van dataophalen (vraag-antwoord, mutaties en bulk download.
+1.  Een handreiking om te weten voor welk toepassingsgebied je welke encoding
+    toepast. Met daarin onderscheid tussen expert-gebruik vs. visualisatie en de
+    3 manieren van dataophalen (vraag-antwoord, mutaties en bulk download).
 
 2.  Extra afspraken over toepassing van de volgende aspecten in GeoPackage en
     /of GeoJSON:
 
 -   Metadata: originele bron, toepassing, nauwkeurigheid 
 
--   Default CRS voor GeoJSON + afronding aantal decimalen voor zowel WGS’84 en
+-   Default CRS voor GeoJSON + afronding aantal decimalen voor zowel WGS’84 als
     RD.
 
--   Visualisatie, extensies richting standaardisatie OGC) 
-
-1.  Pilot/demonstrator hoe een lichter formaat als index/portaal naar andere
-    thema-bronnen ingezet kan worden? Voorbeelden zijn wetten/besluiten, of
-    index/portaal voor ontsluiting thema’s (wegen, gebouwen).
-
-2.  Een minimale set van voorbeeldbestanden als referentiedataset voor
-    GeoPackage, GeoJSON (en GML).
+-   Visualisatie, extensies richting standaardisatie OGC 
 
 3.  Pilot/demonstrator hoe een lichter formaat als index/portaal naar andere
-        thema-bronnen ingezet kan worden? Voorbeelden zijn wetten/besluiten, of
-        index/portaal voor ontsluiting thema’s (wegen, gebouwen).
+    thema-bronnen ingezet kan worden? Voorbeelden zijn wetten/besluiten, of
+    index/portaal voor ontsluiting thema’s (wegen, gebouwen).
 
 4.  Een minimale set van voorbeeldbestanden als referentiedataset voor
     GeoPackage, GeoJSON (en GML).
 
 ## Afspraken en vervolg
-Dus samenvattend:
+Samenvattend:
 
 -   Geonovum richt online werkomgeving in Github in voor verkenning naar
     Geometrie in lichtere formaten.
