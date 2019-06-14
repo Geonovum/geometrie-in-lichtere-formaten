@@ -206,7 +206,7 @@ Uit de discussie komt samengevat de volgende wensen/behoeften:
     GeoPackage, GeoJSON (en GML).
 
 ## Afspraken en vervolg
-Dus samenvattend:
+De volgende afspraken worden gemaakt:
 
 -   Geonovum richt online werkomgeving in Github in voor verkenning naar
     Geometrie in lichtere formaten.
@@ -221,3 +221,5 @@ Dus samenvattend:
 -   Geonovum werkt de toepassingsgebieden, use cases, praktijkvoorbeelden en
     -ervaringen uit in een best-practice document. Streven is voor de zomer een
     eerste opzet te hebben die deelnemers kunnen aanvullen.
+    
+Geonovum plant na de zomer een vervolgbijeenkomst in.
