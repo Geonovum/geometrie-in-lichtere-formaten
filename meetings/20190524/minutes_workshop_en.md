@@ -1,30 +1,30 @@
-Workshop Geometry in Lighter Formats
+# Workshop Geometry in Lighter Formats
 
 24 May 2019, 10 a.m. to 12 a.m. - Geonovum (Amersfoort)
 
-\| Present: \| Not present: \|
+| Present: | Not present: |
 
-\| --------------------------------------------- \| ---
-------------------------------------- \|
+| --------------------------------------------- | ---
+------------------------------------- |
 
-\| John Sheep \\ \| Land Registry \| Paul van Genuchten \\ \| geocat \|
+| John Sheep \\ | Land Registry | Paul van Genuchten \\ | geocat |
 
-\| Willy Tadema \\ \| Province of Groningen Just van den Broecke \\ \| Just
-Objects \|
+| Willy Tadema \\ | Province of Groningen Just van den Broecke \\ | Just
+Objects |
 
-\| Han Welmer \\ \| TNO-GDN \| Dimitri van Hees \\ \| Land Registry \|
+| Han Welmer \\ | TNO-GDN | Dimitri van Hees \\ | Land Registry |
 
-\| Wilko Quak \\ \| BUY \| Maarten Hilferink \\ \| Object Vision bv \|
+| Wilko Quak \\ | BUY | Maarten Hilferink \\ | Object Vision bv |
 
-\| Daniël te Winkel \\ \| Land Registry \| Pieter Bresters \\ \| CBS \|
+| Daniël te Winkel \\ | Land Registry | Pieter Bresters \\ | CBS |
 
-\| Wouter Visscher \\ \| Land Registry \| \|
+| Wouter Visscher \\ | Land Registry | |
 
-\| Erik van der Knaap \\ \| municipality of Gooise Meren \| \|
+| Erik van der Knaap \\ | municipality of Gooise Meren | |
 
-\| Thijs Brentjens \\ \| Geonovum \|
+| Thijs Brentjens \\ | Geonovum |
 
-**Goal of the workshop**
+## Goal of the workshop
 
 Linda welcomes everyone and starts with the goal of this meeting: together
 
@@ -49,16 +49,14 @@ formal list of the Forum Standardization.
 There was also a meeting on July 17, 2018 that looked at other alternative
 formats for GML. The conclusions from this meeting were:
 
-\- GML is difficult and complex, with a lot of unnecessary ballast. Therefore
-GML-light
+- GML is difficult and complex, with a lot of unnecessary ballast. Therefore
+GML-light variants exist with "flattened" structure.
 
-    variants exist with "flattened" structure.
+- GeoJSON is too limited in terms of 3D and CRS (WGS'84)
 
-\- GeoJSON is too limited in terms of 3D and CRS (WGS'84)
+- Little practical experience with GeoPackage; technically supported.
 
-\- Little practical experience with GeoPackage; technically supported.
-
-\- Best practices are needed, with agreements on, among other things.
+- Best practices are needed, with agreements on, among other things.
 
     - object names (spelling, nomenclature)
 
@@ -72,14 +70,14 @@ GML-light
 
 Since the last meeting, the following has happened:
 
-\- GeoPackage is registered for PTOLU
+- GeoPackage is registered for PTOLU
 
-    (\<https://www.geonovum.nl/over-geonovum/actueel/geopackage-aanregister-voor-pas-toe-of-leg-uit-lijst\>);   GeoPackage
+    (<https://www.geonovum.nl/over-geonovum/actueel/geopackage-aanregister-voor-pas-toe-of-leg-uit-lijst>); GeoPackage
 is now OGC standard
 
-\- Number of topics opened on [GeoForum] (https://geoforum.nl/).
+- Number of topics opened on [GeoForum] (https://geoforum.nl/).
 
-\#\# Scope / discussion
+## Scope / discussion
 
 Scope / discussion for this working meeting is the positioning of GML compared
 to.
@@ -228,7 +226,7 @@ opening up themes (roads, buildings).
 4. A minimal set of sample files as a reference data set for GeoPackage, GeoJSON
 (and GML).
 
-Follow-up
+## Follow-up
 
 So in summary:
 
