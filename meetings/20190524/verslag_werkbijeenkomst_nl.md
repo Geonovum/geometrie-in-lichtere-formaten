@@ -145,8 +145,7 @@ achtergrondkaart wordt als GeoPackage aangeleverd als alternatief
 voor FileGeodatabase. Er is een extra stap nodig om GeoPackage te genereren
 uit FileGeodatabase.
 
-Wilko: KOOP publiceert wetten. Voorheen alleen teksten, maar nu teksten met data
-+ geometrie. GML is bestendig voor 50 jaar, wat een belangrijke eis is voor
+Wilko: KOOP publiceert wetten. Voorheen alleen teksten, maar nu teksten met data en geometrie. GML is bestendig voor 50 jaar, wat een belangrijke eis is voor
 KOOP. Gedachte is om GML-bestand de juridisch bindende data te laten bevatten,
 maar de mogelijkheid te hebben voor een ‘makkelijk lezen’-knopje dat formaat
 GeoPackage of GeoJSON uitlevert.
