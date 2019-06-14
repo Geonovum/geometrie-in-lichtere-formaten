@@ -198,11 +198,11 @@ Uit de discussie komt samengevat de volgende wensen/behoeften:
 
 -   Visualisatie, extensies richting standaardisatie OGC) 
 
-    1.  Pilot/demonstrator hoe een lichter formaat als index/portaal naar andere
+3.  Pilot/demonstrator hoe een lichter formaat als index/portaal naar andere
         thema-bronnen ingezet kan worden? Voorbeelden zijn wetten/besluiten, of
         index/portaal voor ontsluiting thema’s (wegen, gebouwen).
 
-1.  Een minimale set van voorbeeldbestanden als referentiedataset voor
+4.  Een minimale set van voorbeeldbestanden als referentiedataset voor
     GeoPackage, GeoJSON (en GML).
 
 ## Afspraken en vervolg
