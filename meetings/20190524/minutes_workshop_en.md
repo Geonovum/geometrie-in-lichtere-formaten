@@ -18,20 +18,13 @@
 ## Goal of the workshop
 
 Linda welcomes everyone and starts with the goal of this meeting: together
-
 look at new geo standards being lighter alternative formats for
-
 GML. GML is / was the standard, but there are now alternative geo standards.
-
-Geonovum wants to find out together with the professional field what this means
-for
-
+Geonovum wants to find out together with the professional field what this means for
 exchange of geometry and which additional documentation and agreements are
 needed
-
 to be able to apply these new standards properly. The result of this exploration
 can be
-
 best practices, guidelines, Dutch profiles or certain geo-standards on the
 formal list of the Forum Standardization.
 
@@ -71,11 +64,8 @@ is now OGC standard
 ## Scope / discussion
 
 Scope / discussion for this working meeting is the positioning of GML compared
-to.
-
-other formats. John starts the discussion with the comment that there are
+to other formats. John starts the discussion with the comment that there are
 several
-
 ways of retrieving data:
 
 1. Question-answer using APIs: retrieve small numbers or individual objects
@@ -85,7 +75,6 @@ ways of retrieving data:
 3. Bulk downloads of total datasets
 
 This may include other formats. For bulk downloads, GML now mainly becomes
-
 applied but this is proven not to be the most useful format for this.
 
 At PDOK a lot is now exchanged with GeoPackage, which also includes a schema.
