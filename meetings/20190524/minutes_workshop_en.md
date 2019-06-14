@@ -2,27 +2,16 @@
 
 24 May 2019, 10 a.m. to 12 a.m. - Geonovum (Amersfoort)
 
-| Present: | Not present: |
-
-| --------------------------------------------- | ---
-------------------------------------- |
-
-| John Sheep \\ | Land Registry | Paul van Genuchten \\ | geocat |
-
-| Willy Tadema \\ | Province of Groningen Just van den Broecke \\ | Just
-Objects |
-
-| Han Welmer \\ | TNO-GDN | Dimitri van Hees \\ | Land Registry |
-
-| Wilko Quak \\ | BUY | Maarten Hilferink \\ | Object Vision bv |
-
-| Daniël te Winkel \\ | Land Registry | Pieter Bresters \\ | CBS |
-
-| Wouter Visscher \\ | Land Registry | |
-
-| Erik van der Knaap \\ | municipality of Gooise Meren | |
-
-| Thijs Brentjens \\ | Geonovum |
+| Present:                                    | Not present:                           |
+|---------------------------------------------|----------------------------------------|
+| John Schaap \| Kadaster                     | Paul van Genuchten \| geocat           |
+| Willy Tadema \| Provincie Groningen         | Just van den Broecke \| Just Objects   |
+| Han Welmer \| TNO-GDN                       | Dimitri van Hees \| Kadaster           |
+| Wilko Quak \|KOOP                           | Maarten Hilferink \| Object Vision bv  |
+| Daniël te Winkel \| Kadaster                | Pieter Bresters \| CBS                 |
+| Wouter Visscher \| Kadaster                 |                                        |
+| Erik van der Knaap \| gemeente Gooise Meren |                                        |
+| Thijs Brentjens \| Geonovum                 |                                        |
 
 ## Goal of the workshop
 
