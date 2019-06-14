@@ -12,6 +12,8 @@
 | Wouter Visscher \| Kadaster                 |                                        |
 | Erik van der Knaap \| gemeente Gooise Meren |                                        |
 | Thijs Brentjens \| Geonovum                 |                                        |
+| Linda van den Brink \| Geonovum             |                                        |
+| Arnoud de Boer \| Geonovum                  |                                        |
 
 ## Doel
 Linda heet iedereen welkom en start met het doel van deze bijeenkomst: samen
